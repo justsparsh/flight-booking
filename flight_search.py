@@ -8,7 +8,7 @@ class FlightSearch:
     def __init__(self):
         self.SEARCH_ENDPOINT = "https://api.tequila.kiwi.com/v2/search"
         self.LOCATION_ENDPOINT = "https://api.tequila.kiwi.com/locations/query"
-        self.TEQUILA_API_KEY = "ASjjQRHm2eYkqEinoXK2HGVnUMtAUeol"
+        self.TEQUILA_API_KEY = ###HIDDEN###
 
     def search_location(self, city):
         location_header = {
