@@ -4,8 +4,8 @@ import requests
 class DataManager:
 
     def __init__(self):
-        self.PRICE_DATA_ENDPOINT = "https://api.sheety.co/2b87e9d7cf284ffeec63b76681c73363/flightDeals/prices"
-        self.USER_DATA_ENDPOINT = "https://api.sheety.co/2b87e9d7cf284ffeec63b76681c73363/flightDeals/users"
+        self.PRICE_DATA_ENDPOINT = ##HIDDEN
+        self.USER_DATA_ENDPOINT = ##HIDDEN
 
     def get_sheet_data_flight(self):
         get_request = requests.get(url=self.PRICE_DATA_ENDPOINT)
